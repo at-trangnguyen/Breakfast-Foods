@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Breakfast food</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="block-btn-header">  
+        <div class="button-group language">
+          <button type="button" class="btn" id="1">
+            <span>Language: </span>
+            <span class="name"> Eng <i class="fa fa-caret-down" aria-hidden="true"></i></span>
+          </button>
+          <ul class="dropdown-button" id="dropdown-language">
+            <li class="dropdown-item">
+              <button type="button">
+                <img src="../image/en-gb.jpg">
+                English
+              </button>
+            </li>
+            <li class="dropdown-item">
+              <button type="button">
+                <img src="../image/arabi.jpg">
+                Arabic
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="button-group currency">
+          <button type="button" class="btn" id="2">
+            <span>Currency:</span>
+            <span class="name"> US <i class="fa fa-caret-down" aria-hidden="true"></i></span>
+          </button>
+          <ul class="dropdown-button" id="dropdown-currency">
+            <li class="dropdown-item">
+              <button type="button">
+                <i class="fa fa-eur" aria-hidden="true"></i>
+                Euro
+              </button>
+            </li>
+            <li class="dropdown-item">
+              <button type="button">
+                <i class="fa fa-gbp" aria-hidden="true"></i>
+                Pound Sterling
+              </button>
+            </li>
+            <li class="dropdown-item">
+              <button type="button">
+                <i class="fa fa-usd" aria-hidden="true"></i>
+                US Dollar
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="button-group account">
+          <button type="button" class="btn" id="3">
+            <span>My Account <i class="fa fa-caret-down" aria-hidden="true"></i></span>   
+          </button>
+          <ul class="dropdown-button" id="dropdown-account">
+            <li class="dropdown-item">
+              <button type="button">
+                <i class="fa fa-key" aria-hidden="true"></i>
+                Register
+              </button>
+            </li>
+            <li class="dropdown-item">
+              <button type="button">
+                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                Login
+              </button>
+            </li>
+            <li class="dropdown-item">
+              <button type="button">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                My Account
+              </button>
+            </li>
+            <li class="dropdown-item">
+              <button type="button">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                Wish list (0)
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cart">
+        <button>
+          <i class="icon fa fa-shopping-cart" aria-hidden="true"></i>
+          <span class="cart-total">0 item(s) - $0.00</span>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="form-search">
+        <form>
+          <input type="text" name="input-search" placeholder="Search">
+          <button>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="">
+          <img src="../image/logo_theme.png">
+        </a>
+      </div>
+      <ul class="main-menu">
+        <li class="menu-item">
+          <a href="">
+           <span class="menu-title">Home</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="">
+            <span class="menu-title">Shop</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="">
+            <span class="menu-title">pages<i class="fa fa-caret-down" aria-hidden="true"></i></span>  
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="">
+            <span class="menu-title">new arrival<i class="fa fa-caret-down" aria-hidden="true"></i></span>
+          </a>
+          <ul class="sub-menu level1">
+            <li class="sub-menu-item">
+              <a href="">everyday fashion</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="">Modern Classics</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="">Party</a>
+              <i class="fa fa-caret-down" aria-hidden="true"></i>
+              <ul class="sub-menu level2">
+                <li class="sub-menu-item">
+                  <a href="">Lime Pullover</a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="">Cherry Dress</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sub-menu-item">
+              <a href="">divided</a>
+            </li>
+            <li class="sub-menu-item">
+              <a href="">accessories</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="">
+            <span class="menu-title">blog</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="">
+            <span class="menu-title">on sale</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="">
+            <span class="menu-title">contact us</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="banner">
+    <a href=""><i class="fa fa-home" aria-hidden="true"></i></a>
+    <span><i class="icon fa fa-chevron-right" aria-hidden="true"></i></span>
+    <a href=""><span class="page-title">Breakfast foods</span></a>
+  </div>
+  <div class="container">
+    <section class="main-content">
+      <section class="page-description">
+        <h3 class="section-title">Breakfast foods</h3>
+        <div class="banner-category">
+          <img src="../image/banner_product.jpg">
+        </div>
+        <p class="description-category">Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque aliquet lacus vitae pede. Nullam mollis dolor ac nisi. Phasellus sit amet urna. Praesent pellentesque sapien sed lacus</p>
+      </section>
+      <section class="refine-search">
+        <h3 class="section-title">Refine Search</h3>
+        <ul class="refine-category">
+          <li class="refine-category-item">
+            <a href="">Cherry Dress (1)</a>
+          </li>
+          <li class="refine-category-item">
+            <a href="">Divided (5)</a>
+          </li>
+        </ul>
+        <div class="block-filter">
+          <div class="block-btn-refine">
+            <button type="button" class="grid-view active">
+              <i class="fa fa-th" aria-hidden="true"></i>
+            </button>
+            <button class="button" class="list-view">
+              <i class="fa fa-th-list" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="select-group">
+            <div class="block-select block-sortby">
+              <label>Sort by:</label>
+              <select>
+                <option>Default</option>
+                <option>Name (A-Z)</option>
+                <option>Name (Z-A)</option>
+                <option>Price (Low-High)</option>
+                <option>Price (High-Low)</option>
+                <option>Rating (Highest)</option>
+                <option>Rating (Lowest)</option>
+                <option>Model (A-Z)</option>
+                <option>Model (Z-A)</option>
+              </select>
+            </div>
+            <div class="block-select block-show">
+              <label>Show:</label>
+              <select>
+                <option>15</option>
+                <option>20</option>
+                <option>25</option>
+                <option>30</option>
+                <option>35</option>
+              </select>
+            </div>
+          </div>
+          <p class="product-compare">
+            <a href="">Product Compare (0)</a>
+          </p>
+        </div>
+        <div class="list-product">
+          <div class="product-item">
+            <div class="product-image">
+              <div class="product-label">
+                <span>Sale</span>
+              </div>
+              <div class="image">
+                <a href="">
+                  <img src="../image/product1.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Asus - 15.6 Laptop</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$20.00</span>
+                <span class="old-price">$120.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="product-label">
+                <span>Sale</span>
+              </div>
+              <div class="image">
+                <a href="">
+                  <img src="../image/product2.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Bar - Electra</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$20.00</span>
+                <span class="old-price">$120.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="product-label">
+                <span>Sale</span>
+              </div>
+              <div class="image">
+                <a href="">
+                  <img src="../image/product3.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Chairs pink for home</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$20.00</span>
+                <span class="old-price">$120.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="image">
+                <a href="">
+                  <img src="../image/product4.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Cutie Floral Lace Shift Dress</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$20.00</span>
+                <span class="old-price">$120.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="image">
+                <a href="">
+                  <img src="../image/product5.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Cutie Textured Halterneck Dress</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$120.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="product-label">
+                <span>Sale</span>
+              </div>
+              <div class="image">
+                <a href="">
+                  <img src="../image/product6.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Dell Inspiron 20 3059 19 5</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$90.00</span>
+                <span class="old-price">$120.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="image">
+                <a href="">
+                  <img src="../image/product7.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Eye Cream for Wrinkles Dark</a>
+              </h6>
+              <div class="product-price">
+                <span class="new-price">$122.00</span>
+              </div>              
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="product-label">
+                <span>Sale</span>
+              </div>
+              <div class="image">
+                <a href="">
+                  <img src="../image/product8.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Ulefone Paris - Outras marcas</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$20.00</span>
+                <span class="old-price">$122.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="image">
+                <a href="">
+                  <img src="../image/product9.jpg">
+                </a>
+              </div>
+              <div class="action">
+                <ul class="action-list">
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-exchange" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                  <li class="action-item">
+                    <button type="button">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-meta">
+              <h6 class="product-name">
+                <a href="">Una table 2_resize</a>
+              </h6>              
+              <div class="product-price">
+                <span class="new-price">$20.00</span>
+                <span class="old-price">$122.00</span>
+              </div>
+              <div class="rating">
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span class="rating-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+              </div>
+              <button class="btn-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <p>Showing 1 to 9 of 9 (1 Pages)</p>
+        </div>
+      </section>
+    </section>
+    <aside class="sidebar">
+      <div class="block-sidebar block-category">
+        <h4 class="block-title">Categories</h4>
+        <ul class="category-list">
+          <li class="category-item">
+            <a href="">Snack foods (16)</a></li>
+          <li class="category-item">
+            <a href="">Bakery (9)</a>
+          </li>
+          <li class="category-item">
+            <a href="">Baverages (11)</a>
+          </li>
+          <li class="category-item">
+            <a href="">Cookie supplies (9)</a>
+          </li>
+          <li class="category-item">
+            <a href="">Baking supplies (9)</a>
+          </li>
+          <li class="category-item">
+            <a href="" class="active">Breakfast food (12)</a>
+            <button type="button" id="accordion">
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </button>
+            <ul class="sub-category">
+              <li class="sub-category-item">
+                <a href="">Cherry Dress (1)</a>
+              </li>
+              <li class="sub-category-item">
+                <a href="">Divided (5)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="category-item">
+            <a href="">Meal essentials</a>
+          </li>
+        </ul>
+      </div>
+      <div class="block-sidebar">
+        <h4 class="block-title">Refine Search</h4>
+        <div class="list-group">
+          <h5 class="list-title">Price</h5>
+          <div class="list-group-item">
+            <label>
+              <input type="checkbox" name="">
+              $35-$75 (7)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              $75-$125 (7)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+               $125-$225 (7)
+            </label>
+          </div>
+        </div>
+        <div class="list-group">
+          <h5 class="list-title">Color</h5>
+          <div class="list-group-item">
+            <label>
+              <input type="checkbox" name="">
+              Black (6)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              White (4)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              Blue (5)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              Red (6)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              Yellow (6)
+            </label>
+          </div>
+        </div>
+        <div class="list-group">
+          <h5 class="list-title">Size</h5>
+          <div class="list-group-item">
+            <label>
+              <input type="checkbox" name="">
+              XS (6)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              S (6)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              M (6)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              XL (6)
+            </label>
+            <label>
+              <input type="checkbox" name="">
+              XXL (6)
+            </label>
+          </div>
+        </div>
+        <button type="button" class="btn-refinesearch">Refine search</button>
+      </div>
+      <div class="block-sidebar">
+        <h4 class="block-title">Specials</h4>
+        <div class="product-item">
+          <div class="image">
+            <a href="">
+              <img src="../image/thumbnail_1.jpg">
+            </a>
+          </div>
+          <div class="product-meta">
+            <h6 class="product-name">
+              <a href="">Asus - 15.6 Laptop</a>
+            </h6>
+            <div class="product-price">
+              <span class="new-price">$20.00</span>
+              <span class="old-price">$122.00</span>
+            </div>
+            <div class="rating">
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="image">
+            <a href="">
+              <img src="../image/thumbnail_2.jpg">
+            </a>
+          </div>
+          <div class="product-meta">
+            <h6 class="product-name">
+              <a href="">Bar - Electra</a>
+            </h6>
+            <div class="product-price">
+              <span class="new-price">$20.00</span>
+              <span class="old-price">$122.00</span>
+            </div>
+            <div class="rating">
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="image">
+            <a href="">
+              <img src="../image/thumbnail_3.jpg">
+            </a>
+          </div>
+          <div class="product-meta">
+            <h6 class="product-name">
+              <a href="">Chairs pink for home</a>
+            </h6>
+            <div class="product-price">
+              <span class="new-price">$20.00</span>
+              <span class="old-price">$122.00</span>
+            </div>
+            <div class="rating">
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="image">
+            <a href="">
+              <img src="../image/thumbnail_4.jpg">
+            </a>
+          </div>
+          <div class="product-meta">
+            <h6 class="product-name">
+              <a href="">Dell Inspiron 20 3059 19 5</a>
+            </h6>
+            <div class="product-price">
+              <span class="new-price">$20.00</span>
+              <span class="old-price">$122.00</span>
+            </div>
+            <div class="rating">
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+              <span class="rating-icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="newsletter">
+          <h5>Newsletter</h5>
+          <p class="description">A newsletter is a regularly distributed publication that is generally about one main topic of interest to its subscribers.</p>
+          <div class="form-email">
+            <form>
+              <input type="text" name="" placeholder="Your email address">
+              <button class="btn-subcribe">Subcribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-center">
+      <div class="container">
+        <div class="block-footer-group">
+          <div class="block-footer block-call-us">
+            <h4 class="block-title">Call Us</h4>
+            <ul>
+              <li>
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                Mon-Thu: 11.00 - 23.00 <br>
+                Sat: 12.00 - 23.00 <br>
+                Sun: 12.00 - 21.00
+              </li>
+              <li>
+                <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                60 East 65th Street <br>
+                New York City NY 10065
+              </li>
+              <li>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                +012 345 678 <br>
+                +012 678 912
+              </li>
+            </ul>
+          </div>
+          <div class="block-footer block-extra">
+            <h4 class="block-title">Extra</h4>
+            <ul>
+              <li>
+                <a href="">Brands</a>
+              </li>
+              <li>
+                <a href="">Gift Certificates</a>
+              </li>
+              <li>
+                <a href="">Affiliates</a>
+              </li>
+              <li>
+                <a href="">Specials</a>
+              </li>
+              <li>
+                <a href="">Site Map</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block-footer block-information">
+            <h4 class="block-title">Information</h4>
+            <ul>
+              <li>
+                <a href="">About us</a>
+              </li>
+              <li>
+                <a href="">Delivery Information</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="">Brands</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block-footer block-customer-service">
+            <h4 class="block-title">Customer Service</h4>
+            <ul>
+              <li>
+                <a href="">Contact Us</a>
+              </li>
+              <li>
+                <a href="">Returns</a>
+              </li>
+              <li>
+                <a href="">Site map</a>
+              </li>
+              <li>
+                <a href="">Brands</a>
+              </li>
+              <li>
+                <a href="">Gift Certificates</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="social">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="">
+                <i class="fa fa-skype" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="">
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="coppy-right">
+          Copyright 2016 - <a href="">Natural Food</a> - All rights sered. Powered by <a href="">BringThemes.com</a>
+        </div>
+        <div class="payment">
+          <img src="../image/payment.jpg">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="../js/index.jquery.js"></script>
+  
+  <script type="text/javascript" src="../js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  @include box-sizing;
+}
+body {
+  font-family: $font-family-a;
+  font-size: 14px;
+  color: $color-c;
+  font-weight: 500;
+}
+a {
+  color: $color-b;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $color-a;
+    text-decoration: none;
+  }
+  &:active {
+    color: $color-b;
+    text-decoration: none;
+  }
+}
+h3, h4 {
+  color: $color-h;
+  font-family: $font-family-b;
+  text-transform: capitalize;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}

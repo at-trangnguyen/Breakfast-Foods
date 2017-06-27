@@ -1,0 +1,149 @@
+.footer {
+  .footer-top {
+    background: url(../image/newletter.png) center;
+    padding: 50px 0;
+    .newsletter {
+      margin: 0px auto;
+      max-width: 53%;
+      color: $color-d;
+      h5 {
+       font-size: 30px;
+       line-height: 33px;
+       font-family: $font-family-b;
+       text-align: center;
+     }
+     .description {
+       line-height: 26px;
+       text-align: center;
+       margin: 15px 0px;
+     }
+   }
+   .form-email {
+    input {
+     width: 433px;
+     height: 46px;
+     background: $color-d;
+     border: 1px solid $color-d;
+     padding: 10px 20px;
+     margin: 0;
+     color: $color-c;
+   }
+   .btn-subcribe {
+     width: 167px;
+     height: 46px;
+     background: $color-a;
+     border: 1px solid $color-a;
+     color: $color-d;
+     text-transform: uppercase;
+     margin-left: -10px;
+   }
+ }
+  }
+  .footer-center {
+    padding: 60px 0;
+    background: $color-f;
+    a {
+      position: relative;
+      color: $color-c;
+      transition: all 0.35s ease;
+    }
+    .block-footer-group {
+      @extend %clearfix;
+      a:hover {
+        padding-left: 12px;
+        color: $color-a;
+        &::before {
+          color: $color-a;
+          content: "\f105";
+          position: absolute;
+          top: -6px;
+          left: 0;
+          font-family: $font-awesome;
+          font-size: 12px;
+        }
+      }
+    }
+    .block-footer {
+      float: left;
+      li {
+        @extend %clearfix;
+        padding-bottom: 10px;
+      }
+    }
+    .block-title {
+      color: $color-d;
+      border-left: 4px solid #60BA62;
+      padding-left: 10px;
+      margin-bottom: 30px;
+    }
+    .block-call-us {
+      width: 33.33333%;
+      .fa {
+        width: 35px;
+        height: 60px;
+        float: left;
+        color: $color-a;
+        font-size: 22px;
+        padding-right: 15px;
+        padding-top: 6px;
+      }
+      li {
+        line-height: 25px;
+      }
+    } 
+    .block-extra {
+      width: 16.66667%;
+      li {
+        font-size: 13px;
+        line-height: 30px;
+      }
+    }
+    .block-information, .block-customer-service {
+      width: 25%;
+      li {
+        font-size: 13px;
+        line-height: 30px;
+      }
+    }
+    .social-list {
+      text-align: center;
+      .social-item {
+        display: inline-block;
+        margin: 0 5px;
+        a {
+          display: block;
+          border: 1px solid rgba(225, 225, 225, 0.2);
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          @include border-radius(50%);
+          &:hover {
+            background: $color-a;
+            border-color: $color-a;
+            color: $color-d;
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    @extend %clearfix;
+    background: #2a2a2a;
+    padding: 20px 0;
+    a {
+      font-weight: 700;
+      color: $color-a;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .coppy-right {
+      float: left;
+      width: 50%;
+      line-height: 26px;
+    }
+    .payment {
+      float: right;
+    }
+  }
+}
