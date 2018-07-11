@@ -1,0 +1,31 @@
+.page-cart {
+  .group-touchspin {
+    @extend %clearfix;
+  }
+
+  .btn-cart, .quality-number {
+    height: 38px;
+    padding: 11px 12px;
+    background: #eeeeee94;
+    border: 1px solid #eeee;
+  }
+  
+  .btn-touchspin-up {
+    margin-left: -4px;
+  }
+
+  .btn-touchspin-down {
+    margin-right: -1px;
+    float: left;
+  }
+
+  .btn-cart {
+    border-radius: 4px;
+  }
+
+  .quality-number {
+    float: left;
+    width: 70%;
+    text-align: center;
+  }
+}

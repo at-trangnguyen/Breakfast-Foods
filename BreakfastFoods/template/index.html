@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Breakfast food</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+  </head>
+  <body>
+    <header id="header" class="header"></header>
+    
+    <nav id="navbar" class="navbar"></nav>
+
+    <div id="banner" class="banner"></div>
+
+    <main class="page-home">
+      <div class="container">
+        <section class="main-content">
+          <section class="page-description">
+            <h3 class="section-title">Breakfast foods</h3>
+            <div class="banner-image">
+              <img src="../image/banner_product.jpg">
+            </div>
+            <p class="description">Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar hendrerit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque aliquet lacus vitae pede. Nullam mollis dolor ac nisi. Phasellus sit amet urna. Praesent pellentesque sapien sed lacus</p>
+          </section>
+
+          <section class="refine-search">
+            <h3 class="section-title">Refine Search</h3>
+            <ul class="refine-category">
+              <li class="refine-category-item">
+                <a href="">Cherry Dress (1)</a>
+              </li>
+              <li class="refine-category-item">
+                <a href="">Divided (5)</a>
+              </li>
+            </ul>
+            <div class="block-filter">
+              <div class="block-btn-refine">
+                <button type="button" class="btn-refine grid-view active">
+                  <i class="fa fa-th" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="btn-refine list-view">
+                  <i class="fa fa-th-list" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="select-group">
+                <div class="block-select block-sortby">
+                  <label>Sort by:</label>
+                  <select>
+                    <option>Default</option>
+                    <option>Name (A-Z)</option>
+                    <option>Name (Z-A)</option>
+                    <option>Price (Low-High)</option>
+                    <option>Price (High-Low)</option>
+                    <option>Rating (Highest)</option>
+                    <option>Rating (Lowest)</option>
+                    <option>Model (A-Z)</option>
+                    <option>Model (Z-A)</option>
+                  </select>
+                </div>
+                <div class="block-select block-show">
+                  <label>Show:</label>
+                  <select>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>25</option>
+                    <option>30</option>
+                    <option>35</option>
+                  </select>
+                </div>
+              </div>
+              <a class="product-compare" href="">Product Compare (0)</a>
+            </div>
+            <ul id="list" class="list-product"></ul>
+            <div class="pagination">
+              <p>Showing 1 to 9 of 9 (1 Pages)</p>
+            </div>
+          </section>
+        </section>
+
+        <aside id="sidebar" class="sidebar"></aside>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer"></footer>
+
+    <script type="text/javascript" src="../js/handlebars-v4.0.11.js"></script>
+    <script type="text/javascript" src="../js/bundle.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/javascript.js"></script>
+    
+    <script id="header-template" type="text/x-handlebars-template">
+      {{> header }}
+    </script>
+
+    <script id="navbar-template" type="text/x-handlebars-template">
+      {{> navbar }}
+    </script>
+    
+    <script id="banner-template" type="text/x-handlebars-template">
+      {{> banner }}
+    </script>
+
+    <script id="sidebar-template" type="text/x-handlebars-template">
+      {{> sidebar }}
+    </script>
+
+    <script id="list-product-template" type="text/x-handlebars-template">
+      {{#each products}}
+        {{> product}}
+      {{/each}}
+    </script>
+
+    <script id="footer-template" type="text/x-handlebars-template">
+      {{> footer }}
+    </script>
+  </body>
+</html>

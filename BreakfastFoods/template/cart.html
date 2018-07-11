@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header id="header" class="header"></header>
+    
+    <nav id="navbar" class="navbar"></nav>
+
+    <div id="banner" class="banner"></div>
+
+    <main class="page-cart">
+      <div class="container">
+        <section class="main-content">
+          <table class="table">
+            <thead>
+              <tr>
+                <td>#</td>
+                <td>Product Name</td>
+                <td>Image</td>
+                <td>Unit Price</td>
+                <td>Quantity</td>
+                <td>Sub Total</td>
+                <td></td>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </section>
+
+        <aside id="sidebar" class="sidebar"></aside>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer"></footer>
+
+    <script type="text/javascript" src="../js/bundle.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/javascript.js"></script>
+    
+    <script id="header-template" type="text/x-handlebars-template">
+      {{> header }}
+    </script>
+
+    <script id="navbar-template" type="text/x-handlebars-template">
+      {{> navbar }}
+    </script>
+    
+    <script id="banner-template" type="text/x-handlebars-template">
+      {{> banner }}
+    </script>
+
+    <script id="sidebar-template" type="text/x-handlebars-template">
+      {{> sidebar }}
+    </script>
+
+    <script id="footer-template" type="text/x-handlebars-template">
+      {{> footer }}
+    </script>
+  </body>
+</html>

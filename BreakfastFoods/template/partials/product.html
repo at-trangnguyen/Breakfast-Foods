@@ -1,0 +1,62 @@
+<li class="product-item">
+  <div class="product-image">
+    <span class="product-label">Sale</span>
+    <a href="" class="image">
+      <img src="../image/product{{id}}.jpg">
+    </a>
+    <div class="action">
+      <ul class="action-list">
+        <li class="action-item">
+          <button type="button">
+            <i class="fa fa-external-link" aria-hidden="true"></i>
+          </button>
+        </li>
+        <li class="action-item">
+          <button type="button">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </li>
+        <li class="action-item">
+          <button type="button">
+            <i class="fa fa-exchange" aria-hidden="true"></i>
+          </button>
+        </li>
+        <li class="action-item">
+          <button type="button">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product-meta">
+    <h6 class="product-name">
+      <a href="">{{ name }}</a>
+    </h6>
+    <div class="product-price">
+      <span class="new-price">${{ price }}</span>
+      <span class="old-price">${{ old_price }}</span>
+    </div>
+    <div class="rating">
+      <span class="rating-icon">
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </span>
+      <span class="rating-icon">
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </span>
+      <span class="rating-icon">
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </span>
+      <span class="rating-icon">
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </span>
+      <span class="rating-icon">
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </span>
+    </div>
+  </div>
+  <button class="btn-cart js-btn-add-cart" data-id="{{ id }}" data-index="{{ index }}">
+    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+    ADD TO CART
+  </button>
+</li>

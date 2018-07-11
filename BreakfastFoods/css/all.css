@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address,
+del, em, img, small, strong, b, u, i, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+button,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-wrap: break-word; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: inherit;
+  font-weight: inherit;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figure, footer, header, menu, nav, section, summary {
+  display: block; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: 500; }
+
+a {
+  color: #162119;
+  text-decoration: none; }
+  a:hover {
+    color: #60BA62;
+    text-decoration: none; }
+  a:active {
+    color: #162119;
+    text-decoration: none; }
+
+h3, h4 {
+  color: #333;
+  font-family: "Leckerli One", sans-serif;
+  text-transform: capitalize; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+li {
+  list-style: none; }
+
+button, input {
+  background: transparent;
+  border: none;
+  outline: 0; }
+
+button, a {
+  cursor: pointer; }
